@@ -120,3 +120,46 @@
 	font-size: 16px;
 	color: #777;
 }
+.slogan {
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.pros_collection {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 80px;
+}
+.pros img {
+	margin-left: 60px;
+}
+.pros h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.pros {
+	padding: 40px 10px;
+	background: #fff;
+	margin-right: 20px;
+	border: 1px solid transparent;
+	border-radius: 10px;
+}
+.pros:hover {
+		border: 1px solid #7979DA;
+		border-radius: 10px;
+}
+.active {
+		border: 1px solid #7979DA;
+		border-radius: 10px;
+}
+.pros p {
+	padding: 0 50px;
+	text-align: center;
+	color: #aaa;
+}
+.outstanding_features{
+	background: #f4feff;
+}
