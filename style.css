@@ -259,3 +259,29 @@
 .plan_choices button:hover {
 	background: #f9218d;
 }
+.customers_saying .saying_title {
+	width: 600px;
+	margin: 0 auto;
+	font-size: 50px;
+	text-align: center;
+}
+.saying_person {
+	display: flex;
+	justify-content: center;
+}
+
+.saying_person .saying_man {
+	width: 200px;
+	padding: 40px;
+}
+.saying_person .saying_man img, h4 {
+	padding-bottom: 20px;
+}
+.saying_person .saying_man  h4 {
+	color: #712fda;
+	font-weight: semi-bold;
+} 
+.saying_person .saying_man  p {
+	color: #aaa;
+	font-size: 20px;
+}
