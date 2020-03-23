@@ -285,3 +285,33 @@
 	color: #aaa;
 	font-size: 20px;
 }
+.downdload_infor {
+	width: 100%;
+	height: 500px;
+	background: linear-gradient(90deg , #7121ea ,#f52a93);
+	display: flex;
+	justify-content: space-around;
+}
+.available_app h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 50px;
+	color: #fff;
+}
+.available_app {
+	padding: 85px;
+}
+.available_app p {
+	margin: 20px 0;
+	color: #fff;
+	font-size: 20px;
+}
+.downloadBtn {
+	padding-left: 30px;
+}
+.downloadBtn img {
+	margin-left: 20px;
+}
+.download_illustration {
+	margin-top: 90px;
+}
