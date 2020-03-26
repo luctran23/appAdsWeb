@@ -196,6 +196,11 @@
 .screenshots img {
 	margin-right: 10px;
 }
+
+
+.pricing_container {
+	position: relative;
+}
 .pricing_slogan {
 	width: 100%;
 	height: 600px;
@@ -259,6 +264,9 @@
 .plan_choices button:hover {
 	background: #f9218d;
 }
+.customers_saying {
+	margin-top: 300px;
+}
 .customers_saying .saying_title {
 	width: 600px;
 	margin: 0 auto;
@@ -314,4 +322,72 @@
 }
 .download_illustration {
 	margin-top: 90px;
+}
+.collaboration_hub {
+	display: flex;
+	position: relative;
+	z-index: -1;
+}
+.collaboration_hub .left_image {
+	position: absolute;
+    top: 149px;
+    left: -147px;
+}
+.collaboration_hub h1 {
+	position: relative;
+	top: 100px;
+	left: 200px;
+	font-size: 50px;
+}
+.right_image {
+	position: relative;
+}
+.right_image button {
+	position: absolute;
+    top: 133px;
+    right: 75px;
+    padding: 15px 30px;
+    border-radius: 38px;
+    background: #f9218d;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+}
+.footer {
+	background: #fff;
+	width: 100%;
+	height: 500px;
+	padding-top: 100px;
+	border-top: 1px solid #f9218d;
+}
+.quick_links ul , .support ul{
+	list-style: none;
+}
+.quick_links ul li , .support ul li,  .logo_description p, .new_sletter p, .new_sletter .email {
+	padding-top: 20px;
+	font-size: 17px;
+	color: #aaa;
+}
+.footer_top {
+	display: flex;
+	justify-content: space-around;
+}
+.logo_description {
+	width: 160px;
+}
+.email {
+	display: flex;
+}
+.email input {
+	padding: 10px;
+	outline: none;
+}
+.footer_bottom {
+	padding-top: 130px;
+	margin-left: 60px;
+	color: #aaa;
+	font-size: 17px;
+}
+#special {
+	color: #f9218d;
 }
